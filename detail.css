@@ -27,7 +27,35 @@ body {
     background-color: #fcffe6;
 }
 
+.page-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.page-title__icon {
+    width: 46px;
+    height: 46px;
+    margin-right: 16px;
+}
+
+.page-title__icon-img {
+    width: 46px;
+    height: 46px;
+}
+
+.page-title__text {
+    font-size: 30px;
+    line-height: 38px;
+    font-family: 'Wawati SC';
+}
+
 .detail-main {
+
+    margin-top: 46px;
+    
     background: -webkit-linear-gradient(right bottom, #f5222d, #1890ff);
     background: linear-gradient(right bottom, #f5222d, #1890ff);
 
