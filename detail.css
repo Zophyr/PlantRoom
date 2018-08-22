@@ -26,3 +26,124 @@ body {
     margin-top: 46px;
     background-color: #fcffe6;
 }
+
+.detail-main {
+    background: -webkit-linear-gradient(right bottom, #f5222d, #1890ff);
+    background: linear-gradient(right bottom, #f5222d, #1890ff);
+
+    min-width: 404px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+
+    padding: 32px;
+    border-radius: 16px;
+
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.6);
+}
+
+.detail-main:hover {
+    transform: scale(1.1);
+}
+
+.detail-main__left {
+    width: 128px;
+    height: 128px;
+    border-radius: 128px;
+    overflow: hidden;
+
+    margin-right: 16px;
+
+    border: 3px #ffffff solid;
+}
+
+.detail-main__pic-img {
+    width: 128px;
+    height: 128px;
+}
+
+.detail-main__name {
+    font-size: 32px;
+    line-height: 40px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.detail-main__cate {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.detail-main__cate-icon {
+    width: 46px;
+    height: 46px;
+    margin-right: 16px;
+
+    border-radius: 46px;
+
+    background-color: #ffffff;
+}
+
+.detail-main__cate-icon-img {
+    width: 46px;
+    height: 46px;
+}
+
+.detail-main__cate-text {
+    font-size: 30px;
+    line-height: 38px;
+
+    color: #ffffff;
+}
+
+.detail-info {
+    min-width: 404px;
+
+    margin-top: 32px;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    border-radius: 16px;
+    background-color: #ffffff;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+}
+
+.detail-info:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.detail-info__title {
+
+    font-size: 38px;
+    line-height: 46px;
+
+    padding-bottom: 8px;
+
+    margin-bottom: 8px;
+
+    border-bottom: 2px #000000 solid;
+}
+
+.detail-info__text {
+    max-width: 404px;
+
+    font-size: 24px;
+    line-height: 32px;
+}
