@@ -23,6 +23,8 @@ body {
     align-content: center;
     padding: 46px;
 
+    margin-top: 46px;
+
     background-color: #fcffe6;
 }
 
@@ -49,6 +51,7 @@ body {
 .page-title__text {
     font-size: 30px;
     line-height: 38px;
+    font-family: 'Wawati SC';
 }
 
 .main-page {
