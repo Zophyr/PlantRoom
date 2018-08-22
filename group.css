@@ -56,3 +56,80 @@ body {
     line-height: 38px;
     font-family: 'Wawati SC';
 }
+
+.cate-flow {
+    margin-top: 46px;
+    width: 600px;
+    /* height: 150px; */
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cate-item {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex: 0 0 40%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 32px;
+
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.6);
+
+}
+
+.cate-item__photo {
+    width: 256px;
+    height: 256px;
+
+    background-color: #e8e8e8;
+
+    border-top: 3px #ffffff solid;
+    border-left: 3px #ffffff solid;
+    border-right: 3px #ffffff solid;
+    
+}
+
+.cate-item__photo-img {
+    width: 256px;
+    height: 256px;
+}
+
+.cate-item__operation {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    border: 3px #ffffff solid;
+    
+}
+
+.cate-item__operation-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.cate-item__operation-item-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+}
+
+.cate-item__operation-item-text {
+    font-size: 16px;
+    line-height: 24px;
+}
