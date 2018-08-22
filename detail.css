@@ -1,0 +1,28 @@
+body {
+    /*     
+    font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif,
+ "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+    font-family: 'Wawati SC';
+}
+
+.the-body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.page-content {
+    max-width: 1024px;
+    min-width: 512px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 46px;
+    margin-top: 46px;
+    background-color: #fcffe6;
+}
